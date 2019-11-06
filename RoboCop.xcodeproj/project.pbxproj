@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE20FD66C0BEF35D96629C64 /* Pods_RoboCop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77BADC88B4B6D01D7E267F3 /* Pods_RoboCop.framework */; };
+		D5150F841EF897C4008290AD /* icons8-Traffic Light-100-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5150F831EF897C4008290AD /* icons8-Traffic Light-100-2.png */; };
+		D533BF7A1EEC3E3A001CBD44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF791EEC3E3A001CBD44 /* AppDelegate.swift */; };
+		D533BF7F1EEC3E3A001CBD44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D533BF7D1EEC3E3A001CBD44 /* Main.storyboard */; };
+		D533BF821EEC3E3A001CBD44 /* Robo_Cop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D533BF801EEC3E3A001CBD44 /* Robo_Cop.xcdatamodeld */; };
+		D533BF841EEC3E3A001CBD44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D533BF831EEC3E3A001CBD44 /* Assets.xcassets */; };
+		D533BF871EEC3E3A001CBD44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D533BF851EEC3E3A001CBD44 /* LaunchScreen.storyboard */; };
+		D533BF8F1EEC4134001CBD44 /* ComplaintSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF8E1EEC4134001CBD44 /* ComplaintSelectViewController.swift */; };
+		D533BF911EEC4161001CBD44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF901EEC4161001CBD44 /* LoginViewController.swift */; };
+		D533BF931EEC41E0001CBD44 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF921EEC41E0001CBD44 /* CommonFunctions.swift */; };
+		D533BF951EEC8575001CBD44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D533BF941EEC8575001CBD44 /* GoogleService-Info.plist */; };
+		D533BF971EEC8660001CBD44 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF961EEC8660001CBD44 /* Constants.swift */; };
+		D533BF991EECA4EA001CBD44 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF981EECA4EA001CBD44 /* SignupViewController.swift */; };
+		D533BF9B1EECA4F4001CBD44 /* UserActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF9A1EECA4F4001CBD44 /* UserActionsViewController.swift */; };
+		D533BF9D1EECA5AD001CBD44 /* ComplaintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF9C1EECA5AD001CBD44 /* ComplaintsViewController.swift */; };
+		D5F7AF891EEE14E600B22C4D /* CompaintsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F7AF881EEE14E600B22C4D /* CompaintsTableViewCell.swift */; };
+		D5F7AF8B1EEE1EDE00B22C4D /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = D5F7AF8A1EEE1EDE00B22C4D /* Unknown.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		267D65B74C8FD5BDC4AFBBF6 /* Pods-RoboCop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboCop.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoboCop/Pods-RoboCop.release.xcconfig"; sourceTree = "<group>"; };
+		91123C95CB747C85BF4B81B3 /* Pods-Social Cop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Cop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social Cop/Pods-Social Cop.debug.xcconfig"; sourceTree = "<group>"; };
+		A4523A0EECD9D242ABBC11B1 /* Pods-RoboCop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboCop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoboCop/Pods-RoboCop.debug.xcconfig"; sourceTree = "<group>"; };
+		D5150F831EF897C4008290AD /* icons8-Traffic Light-100-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Traffic Light-100-2.png"; sourceTree = "<group>"; };
+		D533BF761EEC3E39001CBD44 /* RoboCop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboCop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D533BF791EEC3E3A001CBD44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D533BF7E1EEC3E3A001CBD44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D533BF811EEC3E3A001CBD44 /* Social_Cop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Social_Cop.xcdatamodel; sourceTree = "<group>"; };
+		D533BF831EEC3E3A001CBD44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D533BF861EEC3E3A001CBD44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D533BF881EEC3E3A001CBD44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D533BF8E1EEC4134001CBD44 /* ComplaintSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplaintSelectViewController.swift; sourceTree = "<group>"; };
+		D533BF901EEC4161001CBD44 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D533BF921EEC41E0001CBD44 /* CommonFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		D533BF941EEC8575001CBD44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D533BF961EEC8660001CBD44 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D533BF981EECA4EA001CBD44 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D533BF9A1EECA4F4001CBD44 /* UserActionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActionsViewController.swift; sourceTree = "<group>"; };
+		D533BF9C1EECA5AD001CBD44 /* ComplaintsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplaintsViewController.swift; sourceTree = "<group>"; };
+		D5F7AF881EEE14E600B22C4D /* CompaintsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaintsTableViewCell.swift; sourceTree = "<group>"; };
+		D5F7AF8A1EEE1EDE00B22C4D /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+		E3204FD918EFE14C17DDBC91 /* Pods-Social Cop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Cop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Cop/Pods-Social Cop.release.xcconfig"; sourceTree = "<group>"; };
+		F77BADC88B4B6D01D7E267F3 /* Pods_RoboCop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoboCop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D533BF731EEC3E39001CBD44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE20FD66C0BEF35D96629C64 /* Pods_RoboCop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B994A78E244360669DE4B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91123C95CB747C85BF4B81B3 /* Pods-Social Cop.debug.xcconfig */,
+				E3204FD918EFE14C17DDBC91 /* Pods-Social Cop.release.xcconfig */,
+				A4523A0EECD9D242ABBC11B1 /* Pods-RoboCop.debug.xcconfig */,
+				267D65B74C8FD5BDC4AFBBF6 /* Pods-RoboCop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57417899A1CF8756C6444474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F77BADC88B4B6D01D7E267F3 /* Pods_RoboCop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D533BF6D1EEC3E39001CBD44 = {
+			isa = PBXGroup;
+			children = (
+				D533BF781EEC3E39001CBD44 /* RoboCop */,
+				D533BF771EEC3E39001CBD44 /* Products */,
+				48B994A78E244360669DE4B6 /* Pods */,
+				57417899A1CF8756C6444474 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D533BF771EEC3E39001CBD44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D533BF761EEC3E39001CBD44 /* RoboCop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D533BF781EEC3E39001CBD44 /* RoboCop */ = {
+			isa = PBXGroup;
+			children = (
+				D533BF961EEC8660001CBD44 /* Constants.swift */,
+				D533BF791EEC3E3A001CBD44 /* AppDelegate.swift */,
+				D533BF921EEC41E0001CBD44 /* CommonFunctions.swift */,
+				D533BF7D1EEC3E3A001CBD44 /* Main.storyboard */,
+				D5F7AF8A1EEE1EDE00B22C4D /* Unknown.png */,
+				D533BF981EECA4EA001CBD44 /* SignupViewController.swift */,
+				D533BF9C1EECA5AD001CBD44 /* ComplaintsViewController.swift */,
+				D5F7AF881EEE14E600B22C4D /* CompaintsTableViewCell.swift */,
+				D533BF9A1EECA4F4001CBD44 /* UserActionsViewController.swift */,
+				D533BF901EEC4161001CBD44 /* LoginViewController.swift */,
+				D533BF941EEC8575001CBD44 /* GoogleService-Info.plist */,
+				D533BF8E1EEC4134001CBD44 /* ComplaintSelectViewController.swift */,
+				D533BF831EEC3E3A001CBD44 /* Assets.xcassets */,
+				D5150F831EF897C4008290AD /* icons8-Traffic Light-100-2.png */,
+				D533BF851EEC3E3A001CBD44 /* LaunchScreen.storyboard */,
+				D533BF881EEC3E3A001CBD44 /* Info.plist */,
+				D533BF801EEC3E3A001CBD44 /* Robo_Cop.xcdatamodeld */,
+			);
+			path = RoboCop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D533BF751EEC3E39001CBD44 /* RoboCop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D533BF8B1EEC3E3A001CBD44 /* Build configuration list for PBXNativeTarget "RoboCop" */;
+			buildPhases = (
+				20F7B74A0B8874EDFA6D5628 /* [CP] Check Pods Manifest.lock */,
+				D533BF721EEC3E39001CBD44 /* Sources */,
+				D533BF731EEC3E39001CBD44 /* Frameworks */,
+				D533BF741EEC3E39001CBD44 /* Resources */,
+				FB4ED5CE18B74F946CE7D07F /* [CP] Embed Pods Frameworks */,
+				7CFE2BC91E73846B078BCA5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoboCop;
+			productName = "Social Cop";
+			productReference = D533BF761EEC3E39001CBD44 /* RoboCop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D533BF6E1EEC3E39001CBD44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "prabal malhan";
+				TargetAttributes = {
+					D533BF751EEC3E39001CBD44 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z3BGLCCPGN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D533BF711EEC3E39001CBD44 /* Build configuration list for PBXProject "RoboCop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = D533BF6D1EEC3E39001CBD44;
+			productRefGroup = D533BF771EEC3E39001CBD44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D533BF751EEC3E39001CBD44 /* RoboCop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D533BF741EEC3E39001CBD44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533BF871EEC3E3A001CBD44 /* LaunchScreen.storyboard in Resources */,
+				D5F7AF8B1EEE1EDE00B22C4D /* Unknown.png in Resources */,
+				D5150F841EF897C4008290AD /* icons8-Traffic Light-100-2.png in Resources */,
+				D533BF951EEC8575001CBD44 /* GoogleService-Info.plist in Resources */,
+				D533BF841EEC3E3A001CBD44 /* Assets.xcassets in Resources */,
+				D533BF7F1EEC3E3A001CBD44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20F7B74A0B8874EDFA6D5628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoboCop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CFE2BC91E73846B078BCA5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoboCop/Pods-RoboCop-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoboCop/Pods-RoboCop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4ED5CE18B74F946CE7D07F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoboCop/Pods-RoboCop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoboCop/Pods-RoboCop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D533BF721EEC3E39001CBD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533BF911EEC4161001CBD44 /* LoginViewController.swift in Sources */,
+				D533BF9B1EECA4F4001CBD44 /* UserActionsViewController.swift in Sources */,
+				D533BF991EECA4EA001CBD44 /* SignupViewController.swift in Sources */,
+				D533BF8F1EEC4134001CBD44 /* ComplaintSelectViewController.swift in Sources */,
+				D533BF9D1EECA5AD001CBD44 /* ComplaintsViewController.swift in Sources */,
+				D533BF931EEC41E0001CBD44 /* CommonFunctions.swift in Sources */,
+				D533BF821EEC3E3A001CBD44 /* Robo_Cop.xcdatamodeld in Sources */,
+				D533BF7A1EEC3E3A001CBD44 /* AppDelegate.swift in Sources */,
+				D5F7AF891EEE14E600B22C4D /* CompaintsTableViewCell.swift in Sources */,
+				D533BF971EEC8660001CBD44 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D533BF7D1EEC3E3A001CBD44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D533BF7E1EEC3E3A001CBD44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D533BF851EEC3E3A001CBD44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D533BF861EEC3E3A001CBD44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D533BF891EEC3E3A001CBD44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D533BF8A1EEC3E3A001CBD44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D533BF8C1EEC3E3A001CBD44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4523A0EECD9D242ABBC11B1 /* Pods-RoboCop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z3BGLCCPGN;
+				INFOPLIST_FILE = "$(SRCROOT)/RoboCop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DeniedHashTag.RoboCop;
+				PRODUCT_NAME = RoboCop;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D533BF8D1EEC3E3A001CBD44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267D65B74C8FD5BDC4AFBBF6 /* Pods-RoboCop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z3BGLCCPGN;
+				INFOPLIST_FILE = "$(SRCROOT)/RoboCop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DeniedHashTag.RoboCop;
+				PRODUCT_NAME = RoboCop;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D533BF711EEC3E39001CBD44 /* Build configuration list for PBXProject "RoboCop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533BF891EEC3E3A001CBD44 /* Debug */,
+				D533BF8A1EEC3E3A001CBD44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D533BF8B1EEC3E3A001CBD44 /* Build configuration list for PBXNativeTarget "RoboCop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533BF8C1EEC3E3A001CBD44 /* Debug */,
+				D533BF8D1EEC3E3A001CBD44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D533BF801EEC3E3A001CBD44 /* Robo_Cop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D533BF811EEC3E3A001CBD44 /* Social_Cop.xcdatamodel */,
+			);
+			currentVersion = D533BF811EEC3E3A001CBD44 /* Social_Cop.xcdatamodel */;
+			path = Robo_Cop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D533BF6E1EEC3E39001CBD44 /* Project object */;
+}

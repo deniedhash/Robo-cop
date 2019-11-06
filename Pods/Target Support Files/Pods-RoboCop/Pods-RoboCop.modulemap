@@ -1,0 +1,6 @@
+framework module Pods_RoboCop {
+  umbrella header "Pods-RoboCop-umbrella.h"
+
+  export *
+  module * { export * }
+}
